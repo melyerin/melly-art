@@ -1,7 +1,7 @@
 
 const artworks = [
  {image:'inspiration_1.jpeg', title:'The Fool'},
- {image:'inspiration_2.jpeg', title:'Perspective'},
+ {image:'inspiration_2.jpeg', title:'Perspectives'},
  {image:'inspiration_3.jpeg', title:'Releasing Old Patterns'}
 ];
 

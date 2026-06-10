@@ -1,0 +1,28 @@
+
+body{
+font-family: Georgia, serif;
+margin:0;
+background:linear-gradient(#f7e7ff,#eef6ff);
+color:#222;
+}
+.hero{
+padding:5rem 2rem;
+text-align:center;
+background:rgba(255,255,255,.5);
+backdrop-filter:blur(6px);
+}
+h1{font-size:3rem;}
+section{max-width:1200px;margin:auto;padding:2rem;}
+#gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+gap:18px;
+}
+.card{
+background:white;
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 4px 18px rgba(0,0,0,.12);
+}
+.card img{width:100%;display:block;}
+.card p{padding:1rem;}
